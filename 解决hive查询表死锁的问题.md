@@ -2,7 +2,7 @@
 
 1. 登录到master服务器
 	
-		ssh -i yintech_hdp_dev_rsa root@master.bigdata.ytx.com
+		ssh -i ~/.ssh/yintech_hdp_dev_rsa root@master.bigdata.ytx.com
 		
 2. 连接本地mysql元数据库
 
