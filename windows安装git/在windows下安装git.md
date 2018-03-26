@@ -8,17 +8,17 @@
 		
 ### Git客户端安装
 
-![查询耗时](images/install_1.png)
-![查询耗时](images/install_2.png)
-![查询耗时](images/install_3.png)
-![查询耗时](images/install_4.png)
-![查询耗时](images/install_5.png)
-![查询耗时](images/install_6.png)
-![查询耗时](images/install_7.png)
-![查询耗时](images/install_8.png)
-![查询耗时](images/install_9.png)
-![查询耗时](images/install_10.png)
-![查询耗时](images/install_11.png)
+![安装步骤1](images/install_1.png)
+![安装步骤2](images/install_2.png)
+![安装步骤3](images/install_3.png)
+![安装步骤4](images/install_4.png)
+![安装步骤5](images/install_5.png)
+![安装步骤6](images/install_6.png)
+![安装步骤7](images/install_7.png)
+![安装步骤8](images/install_8.png)
+![安装步骤9](images/install_9.png)
+![安装步骤10](images/install_10.png)
+![安装步骤11](images/install_11.png)
 
 ### 生成ssh key
 	
@@ -95,11 +95,11 @@
 
 4. 点击用户配置
 
-	![查询耗时](images/gitlab_1.jpg)
+	![config_1](images/gitlab_1.jpg)
 
 5. 复制~/.ssh/id\_rsa\_gitlab.pub公钥的内容到Key，然后添加公钥
 
-	![查询耗时](images/gitlab_2.jpg)
+	![config_2](images/gitlab_2.jpg)
 
 ---
 
