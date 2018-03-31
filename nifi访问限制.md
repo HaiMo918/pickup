@@ -13,10 +13,13 @@ __停止firewalld服务__
 # 停止firewalld服务
 systemctl stop firewalld
 systemctl stop firewalld.service
+
 # 禁用firewalld服务
 systemctl mask firewalld
+
 # 禁止firewall开机启动
 systemctl disable firewall.service
+
 # 查看默认防火墙状态
 firewall-cmd --state
 ```
@@ -36,6 +39,20 @@ __启动iptables服务__
 ```
 # 启动iptables服务
 systemctl restart iptables.service
+
+# 停止iptables服务
+systemctl stop iptables.service
+
+# 查看iptables服务状态
+systemctl status iptables.service
+
 # 设置iptables开机启动
 systemctl enable iptables.service
+```
+
+__查看iptables以添加的规则__
+
+```
+# 查看iptables
+iptables -L -n -v
 ```
